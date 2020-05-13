@@ -1,15 +1,25 @@
 
-body {
+html, body {
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
+    height: 100%;
+    margin:0;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 100%;
+    
   }
 
   .promo {
       width: 630px;
-      height:100%;
+      
       background-color:white;
       border-radius: 10px;
-      margin: auto;
       display:flex;
       flex-flow: row wrap;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(228,228,228);
@@ -52,6 +62,7 @@ body {
       Font-size: 16px;
       
       
+
   }
   section{
       padding: 40px;
@@ -98,7 +109,9 @@ body {
         border-radius: 0px;
        
     }
-   
 
+    footer {
+        position:fixed;
+    }
 }
 
