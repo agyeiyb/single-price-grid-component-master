@@ -1,0 +1,104 @@
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+  }
+
+  .promo {
+      width: 630px;
+      height:100%;
+      background-color:white;
+      border-radius: 10px;
+      margin: auto;
+      display:flex;
+      flex-flow: row wrap;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(228,228,228);
+      
+  }
+
+  h1{
+      color: hsl(179, 62%, 43%);
+      font-family: 'Karla', sans-serif;
+
+  }
+
+  h2 {
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+  }
+  .join{
+      
+      margin-bottom: 0px;
+     
+  }
+  .join p{
+      color: hsl(218, 22%, 67%);
+      flex: 2 0px;
+      line-height:20px;
+  }
+  .cost{
+    background-color:hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    Font-size: 16px
+  }
+  .why ul{
+    list-style: none;
+    padding-inline-start:0px;
+    line-height:20px;
+  }
+  .why{
+      background-color: hsl(179,45%,53%);
+      border-bottom-right-radius: 10px;
+      Font-size: 16px;
+      
+      
+  }
+  section{
+      padding: 40px;
+      
+  }
+  button{
+      width: 240px;
+      height:46px;
+      background-color: hsl(71, 73%, 54%);
+      color:white;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+      font-weight: 700;
+    font-size: 12px;
+
+    outline: none; 
+    border:0;
+
+  }
+  em {
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+}
+.aside {
+    flex: 1 0 0; 
+    color: white;
+}
+@media screen and (max-width: 375px) {
+    .promo {
+        flex-flow: column; 
+        width:90%;
+        height: 90%;
+        
+    }
+    section {
+        padding:30px;
+    }
+    .why{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .cost{
+        border-radius: 0px;
+       
+    }
+   
+
+}
+
